@@ -3,3 +3,4 @@ kind: Kustomization
 namespace: minio
 resources:
   - ../../base/minio
+  - minio-secrets.yaml
